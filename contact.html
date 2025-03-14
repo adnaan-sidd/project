@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pulse PR Agency - Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container">
+      <div class="brand">
+        <a href="index.html">Pulse PR Agency</a>
+      </div>
+      <div class="nav-toggle" id="navToggle">&#9776;</div>
+      <nav>
+        <ul id="navList">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact container">
+    <h2>Contact Us</h2>
+    <div class="contact-content">
+      <div class="contact-info">
+        <p>
+          Have a question or ready to boost your PR strategy? Get in touch with us today!
+        </p>
+        <p>Email: <a href="mailto:info@pulsepragency.com">info@pulsepragency.com</a></p>
+        <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+        <p>Address: 123 Main Street, Anytown, USA</p>
+      </div>
+      <div class="contact-form">
+        <form action="#" method="post">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Pulse PR Agency. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Mobile Navigation Script -->
+  <script>
+    const navToggle = document.getElementById('navToggle');
+    const navList = document.getElementById('navList');
+    navToggle.addEventListener('click', () => {
+      navList.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
